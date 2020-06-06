@@ -1,30 +1,84 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Julexy Molina Soliz</title>
+    <title>Julexy Molina</title>
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="estiloweb.css">
 </head>
 
-<header>
-    <nav>
-        <ol>
-            <li>
-                <a href=""></a>
-            </li>
-        </ol>
-    </nav>
-
-</header>
-<section>Sección principal</section>
-<section>Sección portafolio</section>
-<section>Sección eventos</section>
-<section>Sección contactos</section>
-<footer>footer</footer>
-
 <body>
+    <header>
+        <div>
+            <figure>
+                <img src="images/logo.png" alt="logo de https://leonidasestevan.com" />
+            </figure>
 
+            <nav>
+                <ol>
+                    <li>
+                        <a href="#portafolio">Portafolio</a>
+                    </li>
+                    <li>
+                        <a href="#eventos">Experiencia</a>
+                    </li>
+                    <li>
+                        <a href="#contacto">Trabajamos juntos</a>
+                    </li>
+                </ol>
+            </nav>
+        </div>
+    </header>
+
+    <section>
+        <h1>
+            Hola! Soy <strong>Leonidas Esteban</strong> Desarrollador <br/> Javascript
+        </h1>
+
+        <img src="images/hero.jpg" width="500" height="300" alt="Imagen principal del sitio" />
+
+    </section>
+
+    <section id="portafolio">
+        <h2>Portafolio (Proyectos Destacados)</h2>
+
+        <article>
+            <h3>Platzi Video</h3>
+            <h6>React Native / React</h6>
+            <p> <small><strong>Fecha 01/07/2018</strong></small></p>
+            <p> <small><strong>Puedes verlo en::</strong>www.platzi.com/native</small></p>
+            <p>
+                Platzi Video fue el resultado de 3 meses de Trabajamos para crear la mejor app de enseñar el funcionamiento de React y React Native. Desde crear un vista-detalle, hasta patrones avanzados.
+            </p>
+            <img src="images/platzi-video-react-native.png" width="500" alt="proyecto del curso de react native">
+        </article>
+    </section>
+
+    <section id="eventos">
+        <h2>Mas sobre mi experiencia</h2>
+
+        <article>
+            <figure>
+                <img src="images/platzi-conf.jpg" width="500" /> </figure>
+
+            <h3>PlatziConf Mexico 2018</h3>
+            <p>El evento mas grande sobre gente que quiere aprender mas de Internet</p>
+            <a href="https://youtu.be/BIS7cWGgJg0" target="_blank">Ver plática </a>
+        </article>
+    </section>
+
+    <section id="contacto">
+        <form action="/suscripcion/">
+            <h3>¿Creamos algo juntos?</h3>
+            <input type="text" placeholder="Dejame tu email">
+            <button>Enviar</button>
+        </form>
+    </section>
+
+
+    <footer>footer</footer>
 
 </body>
 
